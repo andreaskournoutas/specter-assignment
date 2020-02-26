@@ -1,0 +1,19 @@
+:root {
+    --almost-white: #dddddd;
+    --transparent-black: #00000080;
+    --grey: #222222;
+    --small-transition: all 0.3s;
+    --large-transition: all 0.5s;
+}
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
