@@ -70,15 +70,29 @@ body {
 .burger-button__line--top {
     margin-bottom: 5px;
 }
+.about {
+    padding: 100px 0;
+    margin-top: -112px;
+    background: -moz-linear-gradient(top,  rgba(1,28,39,0) 0%, rgba(1,28,39,1) 10%, rgba(1,28,39,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(1,28,39,0) 0%,rgba(1,28,39,1) 10%,rgba(1,28,39,1) 100%);
+    background: linear-gradient(to bottom,  rgba(1,28,39,0) 0%,rgba(1,28,39,1) 10%,rgba(1,28,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00011c27', endColorstr='#011c27',GradientType=0 );
+
+}
+.about__row {
+    color: white;
+    padding: 0 29px 0 0;
+    font-size: 30px;
+}
 @media (min-width: 576px) {
     .header {
         background-position: center center;
     }
     .header__row--top {
-        padding: 77px 108px 0 108px;
+        padding: 77px 200px 0 108px;
     }
     .header__row--bottom {
-        padding: 0 108px;
+        padding: 0 200px 0 108px;
     }
     .header__title {
         font-size: 150px;
@@ -88,6 +102,14 @@ body {
     }
     .header__play-button-wrapper {
         display: block;
+    }
+    .about {
+        padding: 350px 0 500px 0;
+        margin-top: -100px;
+    }
+    .about__row {
+        padding: 0 200px 0 108px;
+        font-size: 70px;
     }
 }
 @media (min-width: 768px) {
