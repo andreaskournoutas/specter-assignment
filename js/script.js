@@ -13,15 +13,19 @@ function functionsHandler() {
         counter++;
         if ( counter === len ) {
             if (document.body.clientWidth >= 768) {
+                initializeHeight('services__item-title');
+                initializeHeight('services__item-text');
+                initializeHeight('news__item-title');
+                initializeHeight('news__item-image');
                 equalizeHeightToMax('services__item-title');
                 equalizeHeightToMax('services__item-text');
                 equalizeHeightToMax('news__item-title');
-                initializeHeight('news__item-image');
             }
             else {
                 initializeHeight('services__item-title');
                 initializeHeight('services__item-text');
                 initializeHeight('news__item-title');
+                initializeHeight('news__item-image');
                 equalizeHeightToMin('news__item-image');
             }
         }
